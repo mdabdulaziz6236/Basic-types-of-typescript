@@ -27,7 +27,8 @@ const coordinates2: Coordinates<string, string> = ["20", "34"];
 
 
 // array of objects by generic ....
-const userList: GenericArray<{name:string,age:number}> = [
+type User ={name:string,age:number}
+const userList: GenericArray<User> = [
   {
     name: "mr.s",
     age: 34,
